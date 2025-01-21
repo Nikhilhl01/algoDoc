@@ -42,7 +42,7 @@ for (let i = 0; i < cases.length; i++) {
         // Check if doctor speaks the required language
         if (
             doctor.json.mertype === app.json.merType &&
-            (doctor.json.Langauge.includes(app.json.language) || doctor.json.Langauge == "everylang" ) &&
+            (doctor.json.Langauge.includes(app.json.language) || app.json.Langauge == "everylang" ) &&
             doctor.json.insurance.includes(app.json.vendor1)
         ) {
             languageMatched = true;
